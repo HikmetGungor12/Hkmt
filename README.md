@@ -1,3 +1,13 @@
+--- Form Kısmı ----
+
+<form action="sayfalama.php" name="ara" method="GET">
+Aranacak Kelime<input type="text" name="aranan" />
+<input type="submit" value="Arama Yap"/>
+
+</form>
+
+----- Form Kısmı ----
+
 <?php
 // mySQL Veritabanı Bağlantısı
 $link = mysql_connect('localhost' , 'root' , '');
