@@ -1,4 +1,4 @@
-php
+<?php
 // mySQL Veritabanı Bağlantısı
 $link = mysql_connect('localhost' , 'root' , '');
 mysql_select_db('ats_motor' , $link) or die(mysql_error());
@@ -20,7 +20,7 @@ while( $row = mysql_fetch_array($query))
 {
     $dizi[] = $row;
 }
-
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
